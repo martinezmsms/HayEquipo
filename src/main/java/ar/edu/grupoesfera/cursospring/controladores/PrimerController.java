@@ -7,7 +7,7 @@ import org.springframework.web.servlet.ModelAndView;
 @Controller
 public class PrimerController {
 
-	@RequestMapping("/inicio")
+	@RequestMapping("/HolaMundo")
 	public ModelAndView inicio(){
 		 return new ModelAndView("HolaMundo");
 	}
